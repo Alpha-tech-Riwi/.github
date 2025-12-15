@@ -115,7 +115,7 @@ graph TB
 
 | Developer | Role | GitHub | Expertise |
 |-----------|------|--------|-----------|
-| **Fabián Beltrán** | [@fabianbele2605](https://github.com/fabianbele2605) | Full-stack Lead | NestJS, React, IoT |
+| **Fabián Beleño** | [@fabianbele2605](https://github.com/fabianbele2605) | Full-stack Lead | NestJS, React, IoT |
 | **Santiago Comas** | [@SantiagoComas07](https://github.com/SantiagoComas07) | Backend Developer | NestJS, PostgreSQL |
 | **Joel Rodríguez** | [@JoelR19](https://github.com/JoelR19) | Frontend Developer | React, TypeScript |
 | **Daniel Chalarca** | [@DanielChalarca](https://github.com/DanielChalarca) | Mobile Developer | React Native |
