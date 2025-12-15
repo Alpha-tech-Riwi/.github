@@ -1,0 +1,36 @@
+name: 🚀 Alpha Tech CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    name: 🧪 Test Services
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+      
+    - name: 🐳 Setup Docker
+      uses: docker/setup-buildx-action@v3
+      
+    - name: 🔧 Build services
+      run: |
+        docker-compose -f docker-compose.local.yml build
+        
+    - name: 🚀 Start services
+      run: |
+        docker-compose -f docker-compose.local.yml up -d
+        sleep 30
+        
+    - name: 🏥 Health checks
+      run: |
+        ./test-services.sh
+        
+    - name: 🛑 Stop services
+      run: |
+        docker-compose -f docker-compose.local.yml down
