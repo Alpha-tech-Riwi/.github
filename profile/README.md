@@ -36,7 +36,7 @@ graph TB
 ```
 
 ## 🚀 **Live Demo**
-- **Dashboard**: [https://cambridge-org-fellow-usr.trycloudflare.com](https://cambridge-org-fellow-usr.trycloudflare.com)
+- **Dashboard**: https://negotiation-maryland-measurement-outcome.trycloudflare.com/login
 - **API Status**: ✅ Online
 - **Real-time Tracking**: ✅ Active
 - **Mobile App**: 📱 Available
